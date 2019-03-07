@@ -104,7 +104,7 @@ KAFKA_TOPIC_JUNIPER = "juniper"
 KAFKA_TOPIC_JUNIPER_INTERFACES = "juniper_interfaces"
 KAFKA_TOPIC_JUNIPER_SYSLOG = "juniper_syslog"
 LOGFILE = "log/jti_grpc_client.log"
-SOUTHBOUND_KAFKA_FLAG = True
+SOUTHBOUND_KAFKA_FLAG = False
 
 def enum(**named_values):
     return type('Enum', (), named_values)
